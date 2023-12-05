@@ -1,6 +1,25 @@
 // --------------- PRÁTICA GUIADA ---------------
 
+//###-------------------------------Prática 1
+/* //const bimestre1 = [9,8,6,8]; 31
+//const bimestre2 = [5,8,4,3]; 20
+//const bimestre3 = [8,2,6,7]; 23
+//const bimestre4 = [9,9,9,7]; 34
 
+const notasDoAno = [[9,8,6,8],[5,8,4,3],[8,2,6,7],[9,9,9,7]];
+const notasSomaBimestre =[];
+
+for (let i = 0; i < notasDoAno.length; i++){
+  let somaBimestre = 0;
+  const arrayNotas = [] = notasDoAno[i];
+  for (let j = 0; j < arrayNotas.length; j++){
+    somaBimestre += arrayNotas[j];
+  }
+notasSomaBimestre.push(somaBimestre)
+console.log(`A soma das notas do Bimestre ${i+1} é ${notasSomaBimestre[i]}\na média do Bimestre ${i+1} = ${notasSomaBimestre[i]/4} \n`);
+}; */
+
+//###-------------------------------Prática 2
 
 
 
