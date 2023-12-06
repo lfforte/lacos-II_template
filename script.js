@@ -43,7 +43,7 @@ bimestre++;
 
 //###-------------------------------Prática 3
 
-const notasDoAno = [[9,8,6,8],[5,8,4,3],[8,2,6,7],[9,9,9,7]];
+/* const notasDoAno = [[9,8,6,8],[5,8,4,3],[8,2,6,7],[9,9,9,7]];
 const notasSomaBimestre =[];
 let bimestre = 0;
 
@@ -61,7 +61,7 @@ console.log(`A soma das notas do Bimestre ${bimestre+1} é ${notasSomaBimestre[b
 
 bimestre++;
 };
-
+ */
 
 
 
@@ -105,3 +105,16 @@ const filmes = [
 ]
 
 // escreva seu código abaixo 👇🏻
+
+
+for (const index in filmes){
+  let num = 1;
+  console.log(`${filmes[index].titulo}, de ${filmes[index].ano} foi dirigido por ${filmes[index].diretor}`);
+  const filme = filmes[index];
+    for (const elenco of filme.elenco){
+      console.log(`Ator/Atriz${num}: ${elenco}`);
+      num ++;
+    }
+    console.log("\n");
+    
+};
